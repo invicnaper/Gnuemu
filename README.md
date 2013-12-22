@@ -9,7 +9,7 @@ Compiling using Code::Blocks . Open the gnuemu.cbp project. And you will need th
 Need also the <b>libpcap</b> (for sending and receiving packets)
 
 #Linux Version
-Dwonload src for Linux , and compile using gcc command . It's recommanded to test environement after starting emulator
+Download src for Linux , and compile using gcc command . It's recommanded to test environement after starting emulator
 
 tape --help for gnuemu commands
 
