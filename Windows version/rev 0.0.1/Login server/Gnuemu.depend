@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1388696290 source:c:\users\hamza\documents\c_projets\gnuemu\main.c
+	"gnu-utils/gnu-console.c"
+	"gnu-utils/gnu-config.c"
+	"gnu-other/gnu-arg.c"
+	"gnu-utils/gnu-mysql.c"
+	"gnu-login/gnu-loginparser.c"
+	"gnu-server/gnu-sockets.c"
+	"gnu-server/gnu-sockets-1.c"
+	"gnu-server/gnu-packets.c"
+	"gnu-utils/gnu-show-info.c"
+
+1388428035 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-console.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1388697480 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-config.c
+	"../header/config_ins.h"
+
+1388526510 c:\users\hamza\documents\c_projets\gnuemu\header\config_ins.h
+	<stdio.h>
+	<stdlib.h>
+
+1387677958 c:\users\hamza\documents\c_projets\gnuemu\gnu-other\gnu-arg.c
+
+1388696318 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-mysql.c
+	<my_global.h>
+	<mysql.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+
+1388624741 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets-1.c
+	<errno.h>
+	"../header/client-1_ins.h"
+
+1388624714 c:\users\hamza\documents\c_projets\gnuemu\header\client-1_ins.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+
+1388707917 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-packets.c
+	<errno.h>
+	<pcap.h>
+
+1388707606 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets.c
+	<errno.h>
+	"../header/server_ins.h"
+	"../header/client_ins.h"
+
+1388702009 c:\users\hamza\documents\c_projets\gnuemu\header\server_ins.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	"client_ins.h"
+
+1387586245 c:\users\hamza\documents\c_projets\gnuemu\header\client_ins.h
+	"server_ins.h"
+
+1388544609 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-show-info.c
+
+1388416675 source:c:\users\hamza\documents\c_projets\gnuemu\resources.rc
+
+1388708488 c:\users\hamza\documents\c_projets\gnuemu\gnu-login\gnu-loginparser.c
+
