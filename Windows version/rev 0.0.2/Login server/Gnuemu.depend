@@ -1,0 +1,166 @@
+# depslib dependency file v1.0
+1390493765 source:c:\users\hamza\documents\c_projets\gnuemu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header/client-1_ins.h"
+	"header/mysql_ins.h"
+	"header/client_ins.h"
+	"header/others_ins.h"
+	"header/config_ins.h"
+	"header/server_ins.h"
+	"header/md5.h"
+
+1388428035 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-console.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1388697480 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-config.c
+	"../header/config_ins.h"
+
+1390496480 c:\users\hamza\documents\c_projets\gnuemu\header\config_ins.h
+	<stdio.h>
+	<stdlib.h>
+
+1387677958 c:\users\hamza\documents\c_projets\gnuemu\gnu-other\gnu-arg.c
+
+1388696318 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-mysql.c
+	<my_global.h>
+	<mysql.h>
+	<winsock.h>
+	<MYSQL/mysql.h>
+
+1388624741 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets-1.c
+	<errno.h>
+	"../header/client-1_ins.h"
+
+1390492145 c:\users\hamza\documents\c_projets\gnuemu\header\client-1_ins.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+
+1388707917 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-packets.c
+	<errno.h>
+	<pcap.h>
+
+1388715488 c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets.c
+	<errno.h>
+	"../header/server_ins.h"
+	"../header/client_ins.h"
+
+1390492698 c:\users\hamza\documents\c_projets\gnuemu\header\server_ins.h
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	"client_ins.h"
+
+1387586245 c:\users\hamza\documents\c_projets\gnuemu\header\client_ins.h
+	"server_ins.h"
+
+1388544609 c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-show-info.c
+
+1388416675 source:c:\users\hamza\documents\c_projets\gnuemu\resources.rc
+
+1388714534 c:\users\hamza\documents\c_projets\gnuemu\gnu-login\gnu-loginparser.c
+
+1390495751 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-other\gnu-arg.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../header/config_ins.h"
+	"../header/mysql_ins.h"
+	"../header/others_ins.h"
+
+1390495889 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-login\gnu-loginparser.c
+	<errno.h>
+	"../header/client-1_ins.h"
+	<winsock.h>
+	<MYSQL/mysql.h>
+	"../header/mysql_ins.h"
+
+1390496660 c:\users\hamza\documents\c_projets\gnuemu\header\mysql_ins.h
+	<winsock.h>
+	<MYSQL/mysql.h>
+
+1390495558 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-packets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<pcap.h>
+	"../header/client-1_ins.h"
+	<winsock.h>
+	<MYSQL/mysql.h>
+	"../header/mysql_ins.h"
+	"../header/others_ins.h"
+
+1390495740 c:\users\hamza\documents\c_projets\gnuemu\header\others_ins.h
+
+1390495589 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets-1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	"../header/client-1_ins.h"
+	"../header/mysql_ins.h"
+	"../header/others_ins.h"
+
+1390490572 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-server\gnu-sockets.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	"../header/server_ins.h"
+	"../header/client_ins.h"
+	"../header/others_ins.h"
+
+1390496381 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-config.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../header/config_ins.h"
+	"../header/mysql_ins.h"
+
+1390495748 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-console.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"../header/others_ins.h"
+
+1390490599 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-md5.c
+	"../header/md5.h"
+
+1388692993 c:\users\hamza\documents\c_projets\gnuemu\header\md5.h
+	<assert.h>
+	<stdlib.h>
+
+1390496019 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-mysql.c
+	<my_global.h>
+	<mysql.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../header/config_ins.h"
+	"../header/mysql_ins.h"
+	"../header/others_ins.h"
+	<winsock.h>
+	<MYSQL/mysql.h>
+
+1390495772 source:c:\users\hamza\documents\c_projets\gnuemu\gnu-utils\gnu-show-info.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../header/config_ins.h"
+	"../header/mysql_ins.h"
+	"../header/others_ins.h"
+

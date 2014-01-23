@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gnuemu" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Gnuemu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Gnuemu" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="gnu-login/gnu-loginparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-other/gnu-arg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-server/gnu-packets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-server/gnu-sockets-1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-utils/gnu-MD5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-utils/gnu-config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-utils/gnu-console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-utils/gnu-mysql.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gnu-utils/gnu-show-info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="header/client-1_ins.h" />
+		<Unit filename="header/client_ins.h" />
+		<Unit filename="header/config_ins.h" />
+		<Unit filename="header/md5.h" />
+		<Unit filename="header/mysql_ins.h" />
+		<Unit filename="header/others_ins.h" />
+		<Unit filename="header/server_ins.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="resources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
